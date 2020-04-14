@@ -2,7 +2,7 @@
 
 ## myMovies in Interns.js file
 
-## <img src="images/interns.png" width="600" height="400" />
+## <img src="images/interns.png" width="500" height="300" />
 
 ## (a) find the first document in myMovies collection
 
@@ -18,6 +18,6 @@
 
 ## (3) update the movie "The Banker"
 
-## <img src="images/update.png" width="800" height="500" />
+## <img src="images/update.png" width="500" height="500" />
 
 <!-- # <img src="images/aa.png" width="500" height="300" /> -->
