@@ -18,6 +18,6 @@
 
 ## (3) update the movie "The Banker"
 
-## <img src="images/update.png" width="500" height="500" />
+## <img src="images/update.png" width="500" height="200" />
 
 <!-- # <img src="images/aa.png" width="500" height="300" /> -->
