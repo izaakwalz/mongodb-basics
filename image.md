@@ -1,23 +1,23 @@
 ## A simple node.js MongoDB CRUD Operations
 
-# myMovies in Interns.js file
+## myMovies in Interns.js file
 
-# <img src="images/interns.png" width="600" height="400" />
+## <img src="images/interns.png" width="600" height="400" />
 
-# (a) find the first document in myMovies collection
+## (a) find the first document in myMovies collection
 
-# <img src="images/aa.png" width="500" height="300" />
+## <img src="images/aa.png" width="500" height="300" />
 
-# (b) find movies with rating 7
+## (b) find movies with rating 7
 
-# <img src="images/bb.png" width="500" height="300" />
+## <img src="images/bb.png" width="500" height="300" />
 
-# (c) with projection query return only movies title ...
+## (c) with projection query return only movies title ...
 
-# <img src="images/cc.png" width="500" height="300" />
+## <img src="images/cc.png" width="500" height="300" />
 
-# (3) update the movie "The Banker"
+## (3) update the movie "The Banker"
 
-# <img src="images/update.png" width="500" height="300" />
+## <img src="images/update.png" width="800" height="500" />
 
 <!-- # <img src="images/aa.png" width="500" height="300" /> -->
