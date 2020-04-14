@@ -14,4 +14,4 @@
 
 # Interns collection
 
-# <img src="images/intern.png" width="500" height="300" />
+# <img src="images/Intern.png" width="500" height="300" />
