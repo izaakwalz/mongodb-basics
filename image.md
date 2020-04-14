@@ -2,7 +2,7 @@
 
 # myMovies in Interns.js file
 
-# <img src="images/interns.png" width="500" height="300" />
+# <img src="images/interns.png" width="600" height="400" />
 
 # (a) find the first document in myMovies collection
 
