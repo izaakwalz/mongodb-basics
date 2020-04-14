@@ -9,9 +9,9 @@ let dbUrl = 'mongodb://localhost:27017/';
 mongoClient.connect(dbUrl, { useUnifiedTopology: true }, (err, db) => {
   if (err) throw err;
   let database = db.db(dbName);
-  //   add_movies(database, () => {
-  //     db.close();
-  //   });
+      add_movies(database, () => {
+         db.close();
+      });
   find_movies(database, (err, res) => {
     s;
     if (err) throw err;
