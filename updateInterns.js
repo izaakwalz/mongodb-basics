@@ -1,7 +1,7 @@
 const assert = require('assert');
 const update_movies = async (db, cb) => {
   const collection = db.collection('myMovies');
-  await collection.updateOne(
+  await collection.findOneAndUpdate(
     { movie: 'The Banker' },
     {
       $set: {
@@ -12,7 +12,11 @@ const update_movies = async (db, cb) => {
     },
     (err, result) => {
       assert.equal(err, null);
-      console.log(result);
+      const data = {
+        status: 'ok',
+        result: result,
+      };
+      console.log(data);
       cb(result);
     }
   );
