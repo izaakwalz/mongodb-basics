@@ -32,7 +32,7 @@ exports.second_element = async (db, cb) => {
 exports.third_element = async (db, cb) => {
   const collection = db.collection('myMovies');
   await collection
-    .find({}, { projection: { _id: 0, rating: 0, year: 0 } })
+    .find({}, { projection: { movie: 1 } })
     .toArray((err, result) => {
       assert.equal(err, null);
       const data = {
