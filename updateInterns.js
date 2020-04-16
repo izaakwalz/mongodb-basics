@@ -14,7 +14,7 @@ const update_movies = async (db, cb) => {
       assert.equal(err, null);
       const data = {
         status: 'ok',
-        result: result,
+        result: result.value,
       };
       console.log(data);
       cb(result);
